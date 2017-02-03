@@ -27,7 +27,7 @@ public void fractal(float x, float y, int siz)
   fill(255);
 
   polygon(x,y,siz,180);
-  if (siz>1)
+  if (siz>5)
   {
     fractal(x-siz/2,y,siz/2);
     fractal(x+siz/2,y,siz/2);
